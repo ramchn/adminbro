@@ -20,8 +20,6 @@ setup adminbro steps
 9. open settings.json
 	- make sure eslint settings are intact
 10. run the command yarn add admin-bro express mongoose admin-bro-mongoose admin-bro-expressjs express-formidable
-11. create server.js and copy the helloworld code from expressjs website
-12. add scripts.start = "nodemon" in the package.json
-13. run the command yarn add --dev nodemon
-14. pull the github branch
-14. run the command yarn start
+11. run the command yarn add --dev nodemon
+12. pull the github branch
+13. run the command yarn start
