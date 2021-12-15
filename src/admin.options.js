@@ -1,12 +1,9 @@
 const AdminBro = require('admin-bro');
-const AdminBroMongoose = require('admin-bro-mongoose');
+const AdminBroSequelize = require('admin-bro-sequelize');
 
-AdminBro.registerAdapter(AdminBroMongoose);
-
-const User = require('./user.entity');
+AdminBro.registerAdapter(AdminBroSequelize);
 
 const options = {
-  resources: [User],
 };
 
 module.exports = options;

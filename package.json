@@ -13,14 +13,18 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "tedious": "^14.0.0"
   },
   "dependencies": {
     "admin-bro": "^4.0.1",
     "admin-bro-expressjs": "^2.1.1",
     "admin-bro-mongoose": "^0.5.2",
+    "admin-bro-sequelize": "^1.1.1",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-formidable": "^1.2.0",
-    "mongoose": "^6.1.1"
+    "mongoose": "^6.1.1",
+    "sequelize": "^6.12.0-beta.3"
   }
 }
