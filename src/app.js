@@ -8,7 +8,7 @@ const sequelize = require('./db/sequelize');
 const db = require('./models');
 
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT? process.env.PORT: 3000;
 
 const run = async () => {
   try {
